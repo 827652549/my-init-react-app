@@ -1,7 +1,17 @@
 # my-init-react-app
 
 &emsp;&emsp;从零创建一个React应用，不使用脚手架工具。
+&emsp;&emsp;[Github链接](https://github.com/827652549/my-init-react-app)
+### 创建说明
+&emsp;&emsp;一组` JavaScript `构建工具链通常由这些组成：
 
+- 一个 `package` 管理器，比如 `Yarn` 或 `npm`。它能让你充分利用庞大的第三方 package 的生态系统，并且轻松地安装或更新它们。
+
+- 一个打包器，比如` webpack `或 `Parcel`。它能让你编写模块化代码，并将它们组合在一起成为小的 `package`，以优化加载时间。
+
+- 一个编译器，例如 `Babel`。它能让你编写的新版本 `JavaScript`代码，在旧版浏览器中依然能够工作。
+
+&emsp;&emsp;从头开始打造你自己的 JavaScript 工具链，这个教程重新创建了一些 Create React App 的功能。
 ### 文件结构
 ```
 .
@@ -9,11 +19,11 @@
 ├── README.md
 ├── package.json
 ├── public
-│   └── index.html
+│   └── index.html
 ├── src
-│   ├── App.css
-│   ├── App.js
-│   └── index.js
+│   ├── App.css
+│   ├── App.js
+│   └── index.js
 ├── webpack.config.js
 ├── .gitignore
 └── .babelrc
@@ -240,7 +250,9 @@ npm start
 
 &emsp;&emsp;在浏览器键入[http://localhost:3000](http://localhost:3000)以启动项目
 
-### 额外说明
+### 参考资料
 
-[参考链接](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658)
+[Creating a React App… From Scratch.](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658)
+[Webpack - webpack-dev-server: command not found](https://stackoverflow.com/questions/31611527/webpack-webpack-dev-server-command-not-found/52480044)
+[推送提交到远程仓库](https://help.github.com/cn/github/using-git/pushing-commits-to-a-remote-repository)
 
