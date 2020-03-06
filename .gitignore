@@ -6,3 +6,6 @@
 #过滤生产
 /dist/
 /build/
+
+#苹果系统的隐藏文件
+.DS_Store
