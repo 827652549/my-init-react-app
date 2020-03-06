@@ -1,0 +1,8 @@
+#这个文件是让git过滤的列表
+
+#过滤依赖
+/node_modules
+
+#过滤生产
+/dist/
+/build/
