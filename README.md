@@ -3,6 +3,7 @@
 从零创建一个React应用，不使用脚手架工具
 
 ### 目录结构
+```
 .
 ├── LICENSE
 ├── README.md
@@ -16,6 +17,7 @@
 ├── webpack.config.js
 ├── .gitignore
 └── .babelrc
+```
 
 ### 实现过程：
 
